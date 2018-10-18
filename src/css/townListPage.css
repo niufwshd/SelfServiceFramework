@@ -1,0 +1,144 @@
+/*twonlist.css*/
+._navigation{
+	width: 100%;
+	height: 40px;
+	min-width: 1200px;
+	background-color: rgba(242, 242, 242, 1);
+	font-size: 13px;
+	color: #999999;
+	font-family: 'Arial Normal', 'Arial';
+	line-height: 40px;
+}
+._navigationCenter span a{
+	color: #9B1F27;
+}
+._navigationCenter{
+	width: 1200px;
+	margin:0 auto;
+}
+._containerBox{
+	width:1200px;
+	height: auto;
+	margin: 0 auto;
+	min-height:860px;
+}
+._containerTit{
+	font-size: 24px;
+	color:#333;
+	font-weight: 500;
+	line-height: 50px;
+	margin-top: 40px;
+	border-bottom: 1px solid #f2f2f2;
+	position: relative;
+}
+._containerTitBold h2{
+	float:left
+}
+._containerTitBold ._articleTime{
+	float:right;
+	font-size: 16px;
+	color: #333333;
+	font-weight: 500;
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+._townCaseItem{
+	padding: 20px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+._townCaseItem dt{
+	width:195px;
+	height:124px;
+	float:left;
+	position: relative;
+}
+._townCaseItem dt img{
+	width:195px;
+	height:124px;
+}
+._townCaseItem dt i{
+	position: absolute;
+	display: block;
+	width: 70px;
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.498039215686275);
+    border-radius: 3px;
+    color:#fff;
+    text-align: center;
+    line-height: 22px;
+    top: 10px;
+    left:10px;
+    font-style: normal;
+}
+
+._townCaseItem dd h3{
+	font-size: 16px;
+	color: #333333;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+._townCaseItem dd h3:hover{
+	color:#2d7bbf;
+	cursor: pointer;
+}
+._townCaseItem dd h3:hover a{
+	color:#2d7bbf;
+	cursor: pointer;
+}
+
+._townCaseItem dd p{
+	color:#666;
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 30px;
+	
+}
+._townCaseItem dd span{
+	font-size: 12px;
+	color: #999999;
+	
+	
+}
+
+._townCaseItem dd{
+	width:962px;
+	height:124px;
+	float:right;
+}
+._containerTitBold{
+	font-weight: 600;
+}
+
+._articleMain{
+	font-size: 16px;
+	color:#333;
+	padding-bottom: 150px;
+	
+}
+._articleMain h3,._articleMain h4,._articleMain p{
+	font-weight: 500;
+	margin-bottom: 22px;
+}
+._articleImg{
+	display: block;
+	margin: 10px auto;
+}
+._articleMain p{
+	line-height: 20px;
+}
+._companyTit{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+/*关于我们*/
+._aboutUsMain p{
+    		font-size: 16px;
+    		color: #333333;
+    		text-indent: 2rem;
+    		margin-top: 10px;
+    	}

@@ -1,0 +1,109 @@
+<header> 
+	<div class="_headerBj">
+		 <div class="_headerMain">
+	        <div class="_headerL">
+	            <h1>
+	                <img src="../img/u190.png" alt="" class="_logo"/>
+	                <img src="../img/u191.png" alt="" class="_logoText"/>
+	            </h1>
+	        </div>
+	        <nav class="_headerC">
+	            <ul class="_navList clr">
+	                <li class="_navActive"><a href="../pages/index.html">首页</a></li>
+	                <li class="_about"><a href="javascript:;">关于华夏盛</a><i></i>
+	                	<div class="menuList1">
+							<div class="_aboutHXSS">
+								<h3>关于华夏盛世</h3>
+								<ul class="clr">
+									<li><img src="../img/u39.png" alt="" /><span>关于公司</span></li>
+							        <li><img src="../img/u43.png" alt="" /><span>发展历程</span></li>
+							        <li><img src="../img/u35.png" alt="" /><span>组织架构</span></li>
+							        <li><img src="../img/u44.png" alt="" /><span>公司荣誉</span></li>
+							        <li><img src="../img/u41.png" alt="" /><span>CSR</span></li>
+								</ul>			           
+					    	</div>
+					    	
+					    	
+					    </div>
+	                </li>
+	                <li><a href="../pages/townList.html">特色小镇</a></li>
+	                <li class="_FQA"><a href="javascript:;">解决方案</a><i></i>
+	                	<div class="menuList2">	
+						    <div class="_solution">
+					    		<ul class="_solutionList">
+									<li>
+										<img src="../img/u168.png" alt="" />
+										<p>健康产业小镇</p>
+										<span>培育计划</span>
+									</li>
+							        <li>
+							        	<img src="../img/u167.png" alt="" />
+							        	<p>军民融合小镇</p>
+							        	<span>培育计划</span>
+							        </li>
+							       <li>
+										<img src="../img/u169.png" alt="" />
+										<p>文体旅产业小镇</p>
+										<span>培育计划</span>
+									</li>
+							        <li>
+							        	<img src="../img/u170.png" alt="" />
+							        	<p>智能制造小镇</p>
+							        	<span>培育计划</span>
+							        </li>
+							        <li>
+										<img src="../img/u171.png" alt="" />
+										<p>数字文创小镇</p>
+										<span>培育计划</span>
+									</li>
+							        <li>
+							        	<img src="../img/u172.png" alt="" />
+							        	<p>新能源汽车小镇</p>
+							        	<span>培育计划</span>
+							        </li>
+								</ul>	
+								<div class="baseLine"></div>
+					   	 	</div>
+					    </div>
+					    <span></span>
+	                </li>
+	            </ul>
+	        </nav>
+	        <div class="_headerR">
+	            <div class="_contactUs">
+	                <a href="javascript:;">法律声明</a>
+	                <span>|</span>
+	                <a href="javascript:;">联系我们</a>
+	            </div>
+	            <div class="_searchBox">
+	                <input type="text" placeholder="站内搜索"/>
+	                <span class="_searchBtn"></span>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+   
+</header>
+<script src="../js/jquery-2.1.0.js"></script>
+<script type="text/javascript">
+	$("._about").hover(function(){
+		
+    	$(".menuList1").stop().animate({top:"101px"},500);
+    	$(this).children("i").css("background","url(../img/u188.png) no-repeat center center")
+    	
+	},function(){
+		
+    	$(".menuList1").stop().animate({top:"-62px"},500);
+    	$(this).children("i").css("background","url(../img/u187.png) no-repeat center center")
+	})
+	$("._FQA").hover(function(){
+		
+    	$(".menuList2").stop().animate({top:"101px"},500);
+    	$(this).children("i").css("background","url(../img/u188.png) no-repeat center center")
+    	
+	},function(){
+		
+    	$(".menuList2").stop().animate({top:"-62px"},500);
+    	$(this).children("i").css("background","url(../img/u187.png) no-repeat center center")
+	})
+</script>

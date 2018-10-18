@@ -1,0 +1,268 @@
+/*----------header头部样式开始----------------*/
+header{
+    width:100%;
+    max-width:1920px;
+    min-width:1200px;
+    height:100px;
+   	position: relative;
+    background: #fff;
+    z-index: 9999;
+}
+._headerBj{
+	background: #fff;  
+	width:100%;
+    height:100px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+}
+._headerMain{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+    background: #fff;   
+}
+._headerL{
+    float:left;
+}
+._headerL h1{
+    height:100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+._headerL *{
+    vertical-align:middle
+}
+._headerC{
+    float:left;
+    margin-top:39px;
+    margin-left: 15px;
+}
+._headerR{
+    float:right;
+    font-size: 14px;
+	color: #999999;
+	
+}
+._logo{
+    width:105px;
+    height:70px;
+}
+._logoText{
+    width:150px;
+    height:50px;
+}
+._searchBox{
+    width:178px;
+    height:30px;
+    border:1px solid #999;
+    border-radius: 5px;
+    position: relative;
+}
+._searchBox input[type='text']{
+    height:30px;
+    background:none;
+    border:0;
+    padding-left:10px;
+    outline: none;
+}
+._searchBox ._searchBtn{
+	display: block;
+    position:absolute;
+    right: 0;
+    top: 5px;
+    width:20px;
+    height: 20px;
+    background: url(assets/img/u189.png) no-repeat center center;
+    background-size: 100% 100%;
+    
+}
+._navList>li{
+	font-family: 'Arial Normal', 'Arial';
+    float:left;
+   	height: 61px;
+    margin: 0 10px;
+    font-size: 16px;
+    color:#999;
+    cursor: pointer;
+}
+._navList>li>a{
+	display:inline-block;
+	height:59px;
+    line-height:59px;
+    padding:0 15px;
+}
+._navList>li *{
+	vertical-align: middle;
+}
+._navList a{
+	color:#999;
+}
+._navList>li:hover a{
+
+    color: #9B1F27;
+}
+._navActive>a{
+    border-bottom:3px solid #9B1F27;
+}
+._navActive a{
+    font-weight:600;
+    color: #9B1F27;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+}
+._navList>li i{
+	
+	display:inline-block;
+	width: 8px;
+	height: 5px;
+	background: url(assets/img/u187.png) no-repeat center center;
+	margin-left: 5px;
+	
+}
+
+._aboutHXSS{
+	display: inline-block;
+	
+}
+._aboutHXSS h3{
+	text-align:left;
+	font-size: 14px;
+	color:#9B1F27;
+	line-height: 45px;
+}
+._aboutHXSS ul{
+	display:inline-block;
+}
+._aboutHXSS li{
+	width:178px;
+	float:left;
+	margin-right:22px;
+}
+._aboutHXSS img{
+	width:178px;
+	height: 70px;
+	display: block;
+	
+}
+._aboutHXSS li span{
+	display: block;
+	width: 172px;
+	height: 25px;
+	line-height: 25px;
+	background: #9b1f27;
+	color:#fff;
+	font-size: 13px;
+	padding-left: 6px;
+	text-align: left;
+}
+.menuList1,.menuList2{
+	width:100%;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+	text-align: center;
+	position: absolute;
+	top:-62px;
+	height: 160px;
+	z-index:-1;
+	background: #fff;
+	left: 0;
+	overflow: hidden;
+}
+._solution{
+	width: 100%;
+	height: 160px;
+
+}
+._solutionList{
+	
+	display:inline-block;
+	vertical-align: middle;	
+
+}
+
+._solutionList li{
+	/*width: 96px;*/
+	float: left;
+	margin: 0 22px;
+	font-size: 16px;
+	color:#666;	
+	font-family: 'Arial Normal', 'Arial';
+	line-height: normal;
+}
+._solutionList li p{
+	line-height:20px;
+}
+
+._solutionList li img{
+	width:62px;
+	height: 62px;
+	margin-bottom: 10px;
+}
+.baseLine{
+    height: 160px;
+    vertical-align:middle;
+    display: inline-block;
+	   
+}
+._contactUs{
+	line-height: 52px;
+	text-align: right;
+}
+._contactUs a{
+	color:#999;
+}
+/*----------header头部样式结束----------------*/
+/*----------footer底部样式开始----------------*/
+footer{
+	width:100%;
+	min-width: 1200px;
+	height: 145px;
+	background: #333;
+	
+}
+._footMain{
+	width: 1200px;
+	height: 145px;
+	margin:0 auto;
+	font-family: 'Arial Normal', 'Arial';
+	
+	
+}
+._footL{
+	
+	display: inline-block;
+	font-size: 14px;
+	color: #C09F5A;
+	vertical-align: middle;
+	
+}
+._footNav a{
+	color: #C09F5A;
+}
+._footNav span{
+	margin:0 3px;
+}
+._footR{
+	display:inline-block;
+	float: right;
+	width: 90px;
+	height: 110px;
+	background:#282828;
+	text-align: center;
+	margin-top: 20px;
+	
+	
+}
+._footR img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 5px auto 2px;
+}
+._footR span{
+	color:#fff;
+	
+}
+._footBaseLine{
+	height: 145px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
