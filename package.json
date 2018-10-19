@@ -18,8 +18,14 @@
   },
   "build": {
     "appId": "selfHelp.Terminal",
+    "electronVersion": "2.0.7",
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon" : "src/assets/img/logo.ico"
+    },
+     "directories": {
+      "output": "release",
+      "app": "."
     }
   },
   "private": true,

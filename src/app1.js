@@ -26,16 +26,16 @@
 // },3000);var hook = require('../nkbhook.js');
 
 
-const hook = require('ll-keyboard-hook-win');
-let keyRegisterFn = (...args) => globalShortcut.register(...args);
-if (process.platform === 'win32') {
-    const hook = require('ll-keyboard-hook-win');
+// const hook = require('ll-keyboard-hook-win');
+// let keyRegisterFn = (...args) => globalShortcut.register(...args);
+// if (process.platform === 'win32') {
+//     const hook = require('ll-keyboard-hook-win');
   
-    keyRegisterFn = (key, fn) => {
-      hook.on('down', key, fn);
-    };
-  }
+//     keyRegisterFn = (key, fn) => {
+//       hook.on('down', key, fn);
+//     };
+//   }
 
-keyRegisterFn('133', (data) => {
-     console.log(data);
-  });
+// keyRegisterFn('133', (data) => {
+//      console.log(data);
+//   });

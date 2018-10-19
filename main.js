@@ -15,11 +15,11 @@ function createWindow() {
     height: 600,
     backgroundColor: '#ffffff',
     icon: `file://${__dirname}/dist/assets/logo.png`,
-    alwaysOnTop:true,
+    alwaysOnTop:false,
     fullscreen:true
   })
-
-  win.setMenu(null);
+  win.setMenuBarVisibility(false);
+  //win.setMenu(null);
   win.loadURL(`file://${__dirname}/dist/index.html`)
 
 
@@ -86,6 +86,7 @@ function createWindow() {
         } else if (r == '111111') {
           e.returnValue = true;
           win.destroy();
+          app.quit();
         }
       })
       .catch(console.error);
