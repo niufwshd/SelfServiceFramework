@@ -14,15 +14,15 @@
 ## Basic Usage
 1. 安装 yarn   
    参考https://yarnpkg.com/en/docs/install#windows-stable  
-2.安装node-gyp  
-  $ npm install -g node-gyp  
+2. 安装node-gyp  
+   $ npm install -g node-gyp  
 3. 安装 electron-builder
    yarn add electron-builder --dev  
    参考https://github.com/nodejs/node-gyp
 4. 克隆代码库  
-git clone  
-cd SelfServiceFramework  
-npm install
+    git clone  
+    cd SelfServiceFramework  
+    npm install
 
 # build the app
 npm run electron-build
