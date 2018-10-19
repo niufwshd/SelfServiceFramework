@@ -26,7 +26,7 @@
 
 # build the app
 npm run electron-build
-```
+
 
 # Lessons and Screencasts
 
