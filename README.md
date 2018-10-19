@@ -16,7 +16,7 @@
    参考https://yarnpkg.com/en/docs/install#windows-stable  
 2. 安装node-gyp  
    $ npm install -g node-gyp  
-3. 安装 electron-builder
+3. 安装 electron-builder  
    yarn add electron-builder --dev  
    参考https://github.com/nodejs/node-gyp
 4. 克隆代码库  
