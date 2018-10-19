@@ -2,7 +2,7 @@
 
 此项目是在[Angular Electron](https://angularfirebase.com/lessons/desktop-apps-with-electron-and-angular/)的基础上扩展而来
 ## 支持的功能
-1.全屏并总是在其他窗口前面
+1.全屏并总是在其他窗口前面 
 2.esc和alt+f4不能关闭，支持alt+f4密码退出
 3.支持空闲时间哦统计，当到达一定的时间段后可以弹出广告窗口
 4.广告窗口支持图片和视频的混播跑马灯，视频会自动播放适合无人值守的自助终端场景，当手触屏后广告退出。
