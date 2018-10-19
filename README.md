@@ -1,6 +1,6 @@
 # AngularElectron
 
-此项目是在AngularElectron（https://github.com/maximegris/angular-electron)的基础上扩展而来
+此项目是在[Angular Electron](https://angularfirebase.com/lessons/desktop-apps-with-electron-and-angular/)的基础上扩展而来
 
 ## Basic Usage
 
