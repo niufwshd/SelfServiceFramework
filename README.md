@@ -1,6 +1,6 @@
 # SelfServiceClient
 
-一个通用的自助客户端框架，此项目是在[Angular Electron](https://angularfirebase.com/lessons/desktop-apps-with-electron-and-angular/)的基础上扩展而来
+一个通用的自助服务客户端框架，此项目是在[Angular Electron](https://angularfirebase.com/lessons/desktop-apps-with-electron-and-angular/)的基础上扩展而来
 ## 支持的功能
 1.全屏并总是在其他窗口前面  
 2.esc和alt+f4不能关闭，支持alt+f4密码退出  
