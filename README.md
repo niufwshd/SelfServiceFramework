@@ -53,11 +53,12 @@ Learn how to bulid this [Angular Electron](https://angularfirebase.com/lessons/d
     }  
   }  
   注意打包需要256x256的ico文件。  
-## 5. 如果出现electron-xxx.zip(xxx位版本号)不能下载，请手动下载electron-xxx.zip
+## 5. 打包填坑亲历 
+   1. 如果出现electron-xxx.zip(xxx位版本号)不能下载，请手动下载electron-xxx.zip
    或者从电脑的C:\Users\Think\.electron(think是我的当前用户名）    
    拷贝electron-xxx.zip和SHASUMS256.txt-xxx的文件到C:\Users\Think\AppData\Local\electron\Cache  
    目录。文件夹名称要和build输出的目录路径保持一致。  
-   如果electron-xxx.zip(xxx位版本号)不能下载，electron_builder打包还需要electron-builder打包也需要两个文件：  
+   2. 如果electron-xxx.zip(xxx位版本号)不能下载，electron_builder打包还需要electron-builder打包也需要两个文件：  
    winCodeSign和nsis以及nsis resource  
    如果这两个文件也没有下载下来，按照如下步骤操作：  
    下载wincodesign包，链接：https://github.com/electron-userland/electron-builder-binaries/releases  
@@ -66,7 +67,10 @@ Learn how to bulid this [Angular Electron](https://angularfirebase.com/lessons/d
    将Source code (zip)解压后的文件拷贝到C:\Users\Think\AppData\Local\ electron-builder\cache\下  
    下载的链接信息build输出信息中会给出，可参考如下格式  
    https://github.com/electron-userland/electron-builder-binaries/releases/tag/winCodeSign-1.9.0 ，  
-   https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-resources-3.0.0  
+   https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-resources-3.0.0 
+   3. 如果出现 sprawn "C:\Users\Think\AppData\Local\electron\Cache\winCodeSign\winCodeSign-2.3.1\rcedit-x64.exe" 错误
+      请查看C:\Users\Think\AppData\Local\electron\Cache\winCodeSign\winCodeSign-2.3.1\winCodeSign目录，rcedit-x64.exe在我的这个目录下，
+      拷贝到build信息提示的C:\Users\Think\AppData\Local\electron\Cache\winCodeSign\winCodeSign-2.3.1\下，再次build通过。
    至此配置完成，打包不会报错。  
 ## 6. 在powershell的cmd中cd到package.json所在目录运行 yarn dist
    可以在项目的release目录下看到生成的安装包setup文件,以及win-unpacked（windows平台）下所有的其他文件，至此打包完成。
