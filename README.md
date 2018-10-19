@@ -1,4 +1,4 @@
-# AngularElectron
+# SelfServiceClient
 
 此项目是在[Angular Electron](https://angularfirebase.com/lessons/desktop-apps-with-electron-and-angular/)的基础上扩展而来
 ## 支持的功能
