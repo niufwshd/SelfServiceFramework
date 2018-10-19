@@ -70,7 +70,7 @@ Learn how to bulid this [Angular Electron](https://angularfirebase.com/lessons/d
    https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-resources-3.0.0 
    3. 如果出现 sprawn "C:\Users\Think\AppData\Local\electron\Cache\winCodeSign\winCodeSign-2.3.1\rcedit-x64.exe" 错误
       请查看C:\Users\Think\AppData\Local\electron\Cache\winCodeSign\winCodeSign-2.3.1\winCodeSign目录，rcedit-x64.exe在我的这个目录下，
-      拷贝到build信息提示的C:\Users\Think\AppData\Local\electron\Cache\winCodeSign\winCodeSign-2.3.1\下，再次build通过。
+      拷贝到build信息提示的C:\Users\Think\AppData\Local\electron\Cache\winCodeSign\winCodeSign-2.3.1\下，再次build通过。  
    至此配置完成，打包不会报错。  
 ## 6. 在powershell的cmd中cd到package.json所在目录运行 yarn dist
    可以在项目的release目录下看到生成的安装包setup文件,以及win-unpacked（windows平台）下所有的其他文件，至此打包完成。
