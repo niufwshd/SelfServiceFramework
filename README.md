@@ -13,8 +13,8 @@
 
 ## Basic Usage
 1.克隆代码库  
-      git clone  
-      cd SelfServiceFramework  
+  git clone  
+  cd SelfServiceFramework  
 2. 安装 yarn   
    参考https://yarnpkg.com/en/docs/install#windows-stable  
 3. 安装node-gyp  
