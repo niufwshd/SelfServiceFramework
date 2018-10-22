@@ -21,11 +21,11 @@
    $ npm install -g node-gyp  
 4. 安装 electron-builder  
    yarn add electron-builder --dev  
-   参考https://github.com/nodejs/node-gyp
-5. 安装  
-    npm install
+   参考https://github.com/nodejs/node-gyp  
+5. 安装    
+    npm install  
 6. 构建应用  
-   npm run electron-build
+   npm run electron-build  
 
 
 # Lessons and Screencasts
