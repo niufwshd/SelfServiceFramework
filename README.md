@@ -12,20 +12,20 @@
 8.支持electron支持的所有其他功能  
 
 ## Basic Usage
-1. 安装 yarn   
-   参考https://yarnpkg.com/en/docs/install#windows-stable  
-2. 安装node-gyp  
-   $ npm install -g node-gyp  
-3. 安装 electron-builder  
-   yarn add electron-builder --dev  
-   参考https://github.com/nodejs/node-gyp
-4. 克隆代码库  
+1.克隆代码库  
     git clone  
     cd SelfServiceFramework  
+2. 安装 yarn   
+   参考https://yarnpkg.com/en/docs/install#windows-stable  
+3. 安装node-gyp  
+   $ npm install -g node-gyp  
+4. 安装 electron-builder  
+   yarn add electron-builder --dev  
+   参考https://github.com/nodejs/node-gyp
+5. 安装  
     npm install
-
-# build the app
-npm run electron-build
+6. 构建应用  
+   npm run electron-build
 
 
 # Lessons and Screencasts
